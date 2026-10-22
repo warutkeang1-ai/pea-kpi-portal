@@ -1,5 +1,9 @@
 {
  "departments": [
+    {
+   "name": "งานตามข้อสั่งการ ผวก. ผชก.(ฉ.1)",
+   "icon": "LayoutDashboard"
+  },
   {
    "name": "ประจำกอง",
    "icon": "FolderOpen"
@@ -18,6 +22,30 @@
   }
  ],
  "links": [
+    {
+   "id": "h1",
+   "department": "งานตามข้อสั่งการ ผวก. ผชก.(ฉ.1",
+   "name": "ติดตามแผนงานตรวจละเมิด Bitcoin",
+   "description": "ผู้รับผิดชอบรายงานผล ฝมจ.",
+   "type": "Dashboard",
+   "icon": "Gauge",
+   "url": "https://peaex.pea.co.th/reports/powerbi/PRD/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2/%E0%B8%9D%E0%B8%A1%E0%B8%88./%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B9%80%E0%B8%9C%E0%B8%99%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%A1%E0%B8%B4%E0%B8%94%20Bitcoin%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B9%88%202/D_%E0%B8%81%E0%B8%9F%E0%B8%89.1",
+   "enabled": true,
+   "isSample": false,
+   "order": 1
+  },
+      {
+   "id": "h2",
+   "department": "งานตามข้อสั่งการ ผวก. ผชก.(ฉ.1",
+   "name": "รายงานผลการสำรวจดวงโคมไฟสาธารณะ กฟฉ.1",
+   "description": "ผู้รับผิดชอบรายงานผล ",
+   "type": "Dashboard",
+   "icon": "BarChart3",
+   "url": "https://datastudio.google.com/u/0/reporting/e1c8d0db-e71e-48f0-b45b-1584bdd82b20/page/OiD3F",
+   "enabled": true,
+   "isSample": false,
+   "order": 2
+  },
   {
    "id": "g1",
    "department": "ประจำกอง",
@@ -28,7 +56,7 @@
    "url": "https://wesafe.pea.co.th/admin/login.aspx",
    "enabled": true,
    "isSample": false,
-   "order": 1
+   "order": 3
   },
   {
    "id": "g2",
@@ -40,7 +68,7 @@
    "url": "",
    "enabled": true,
    "isSample": false,
-   "order": 2
+   "order": 4
   },
   {
    "id": "g3",
@@ -49,32 +77,32 @@
    "description": "SPA แสดงข้อมูลแบบ Real Time",
    "type": "Dashboard",
    "icon": "Users",
-   "url": "",
+   "url": "https://datastudio.google.com/u/0/reporting/d5f1333f-c6ab-45ee-8ada-953ab930eaa9/page/p_st009btu4c",
    "enabled": true,
    "isSample": false,
-   "order": 3
+   "order": 5
   },
   {
    "id": "c1",
    "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
-   "name": "ความต้องการพัสดุ กฟส.ผผ.",
+   "name": "ความต้องการพัสดุ กฟส.ชมพ. (อยู่ระหว่างพัฒนา เว็บไซต์)",
    "description": "ตรวจเช็คความต้องการพัสดุและพัสดุขาดแคลน",
    "url": "",
    "type": "Dashboard",
    "icon": "Package",
-   "order": 4,
+   "order": 6,
    "enabled": true,
    "isSample": false
   },
   {
    "id": "c2",
    "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
-   "name": "โปรแกรมติดตามงานก่อสร้าง NEW",
-   "description": "WBS Tracking NEW",
-   "url": "",
-   "type": "Application",
+   "name": "ติดตามงานก่อสร้าง AUC ก่อนปี",
+   "description": "อัพเดตโดย ผกส.กฟส.ชมพ. สัปดาห์ละ 1 ครั้ง",
+   "url": "https://datastudio.google.com/s/npGu2coDPhI",
+   "type": "Dashboard",
    "icon": "ClipboardList",
-   "order": 5,
+   "order": 7,
    "enabled": true,
    "isSample": false
   },
@@ -86,7 +114,7 @@
    "url": "",
    "type": "Application",
    "icon": "AppWindow",
-   "order": 6,
+   "order": 8,
    "enabled": true,
    "isSample": false
   },
@@ -98,7 +126,7 @@
    "url": "",
    "type": "Dashboard",
    "icon": "BarChart3",
-   "order": 7,
+   "order": 9,
    "enabled": true,
    "isSample": false
   },
@@ -110,7 +138,7 @@
    "url": "",
    "type": "Dashboard",
    "icon": "LayoutDashboard",
-   "order": 8,
+   "order": 10,
    "enabled": true,
    "isSample": true
   },
@@ -122,7 +150,7 @@
    "url": "",
    "type": "Website",
    "icon": "Globe",
-   "order": 9,
+   "order": 11,
    "enabled": true,
    "isSample": true
   },
@@ -134,7 +162,7 @@
    "url": "",
    "type": "Application",
    "icon": "Gauge",
-   "order": 10,
+   "order": 12,
    "enabled": true,
    "isSample": true
   }
