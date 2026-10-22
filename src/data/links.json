@@ -167,7 +167,7 @@
    "type": "Dashboard",
    "icon": "LayoutDashboard",
    "order": 12,
-   "enabled": true,
+   "enabled": true
   },
     {
    "id": "i1",
@@ -178,7 +178,7 @@
    "type": "Website",
    "icon": "Globe",
    "order": 13,
-   "enabled": true,
+   "enabled": true
   },
   {
    "id": "s3",
