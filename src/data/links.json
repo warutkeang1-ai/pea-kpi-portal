@@ -16,6 +16,10 @@
    "name": "แผนกบริการลูกค้า",
    "icon": "Users"
   },
+    {
+   "name": "แผนกสนับสนุน",
+   "icon": "Users"
+  },
   {
    "name": "แผนกมิเตอร์",
    "icon": "Gauge"
@@ -82,6 +86,30 @@
    "isSample": false,
    "order": 5
   },
+    {
+   "id": "g3",
+   "department": "ประจำกอง",
+   "name": "GIS Dashboard",
+   "description": "อัพเดตผลงานโดยเขต ทุกวันแรกของสัปดาห์",
+   "type": "Dashboard",
+   "icon": "Users",
+   "url": "https://datastudio.google.com/u/0/reporting/888a16d4-b493-4a5e-aefb-0a68382fda60/page/p_54987s2ugd",
+   "enabled": true,
+   "isSample": false,
+   "order": 6
+  },
+      {
+   "id": "g3",
+   "department": "ประจำกอง",
+   "name": "Loss กฟฉ.1",
+   "description": "Google drive รวบรวมรายงานหน่วยสูญเสียฯ",
+   "type": "Dashboard",
+   "icon": "Globe",
+   "url": "https://drive.google.com/drive/folders/102VkGyqy7MYlcCthR-2Yqqu2xRwahq0x",
+   "enabled": true,
+   "isSample": false,
+   "order": 7
+  },
   {
    "id": "c1",
    "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
@@ -90,7 +118,7 @@
    "url": "",
    "type": "Dashboard",
    "icon": "Package",
-   "order": 6,
+   "order": 8,
    "enabled": true,
    "isSample": false
   },
@@ -101,58 +129,56 @@
    "description": "อัพเดตโดย ผกส.กฟส.ชมพ. สัปดาห์ละ 1 ครั้ง",
    "url": "https://datastudio.google.com/s/npGu2coDPhI",
    "type": "Dashboard",
-   "icon": "ClipboardList",
-   "order": 7,
+   "icon": "LayoutDashboard",
+   "order": 9,
    "enabled": true,
    "isSample": false
   },
   {
    "id": "c3",
    "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
-   "name": "ระบบเช็คกระบวนงานก่อสร้างผ่าน CPM",
-   "description": "ระบบเช็คกระบวนงานก่อสร้างผ่าน CPM",
-   "url": "",
-   "type": "Application",
-   "icon": "AppWindow",
-   "order": 8,
+   "name": "ติดตามงานก่อสร้าง AUC ปีนี้",
+   "description": "อัพเดตโดย ผกส.กฟส.ชมพ. สัปดาห์ละ 1 ครั้ง",
+   "url": "https://datastudio.google.com/u/0/reporting/caa42ddf-b62d-4c34-a787-8302d7a82fdc/page/p_vtgqdg717d",
+   "type": "Dashboard",
+   "icon": "LayoutDashboard",
+   "order": 10,
    "enabled": true,
    "isSample": false
   },
   {
    "id": "c4",
    "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
-   "name": "ระบบติดตามความคืบหน้างานก่อสร้าง",
-   "description": "ติดตามงานตามระยะเวลาให้ได้ตามกำหนด",
-   "url": "",
+   "name": "ระบบบริหารโครงการก่อสร้างระบบไฟฟ้า กฟภ. (CPM)",
+   "description": "ระบบบริหารโครงการก่อสร้างระบบไฟฟ้า กฟภ. (CPM)",
+   "url": "https://peaex.pea.co.th/reports/powerbi/PRD/%E0%B8%81%E0%B8%9F%E0%B8%99.3%20%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5/%E0%B8%81%E0%B8%9F%E0%B8%AA.%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%94%E0%B8%B2%E0%B8%A5/CPM%20Report",
    "type": "Dashboard",
    "icon": "BarChart3",
-   "order": 9,
+   "order": 11,
    "enabled": true,
    "isSample": false
   },
   {
    "id": "s1",
    "department": "แผนกบริการลูกค้า",
-   "name": "ติดตามคำร้องผู้ใช้ไฟ",
-   "description": "ตัวอย่าง: สถานะคำร้องและระยะเวลาดำเนินการ",
-   "url": "",
+   "name": "ติดตามผลการใช้งานระบบจ่ายงานอัจฉริยะ WOM",
+   "description": "ร้อยละการใช้งาน 80%",
+   "url": "https://csm.pea.co.th/wom/activeusage",
    "type": "Dashboard",
    "icon": "LayoutDashboard",
-   "order": 10,
+   "order": 12,
    "enabled": true,
-   "isSample": true
   },
-  {
-   "id": "s2",
-   "department": "แผนกบริการลูกค้า",
+    {
+   "id": "i1",
+   "department": "แผนกสนับสนุน",
    "name": "แบบสำรวจความพึงพอใจ",
    "description": "ตัวอย่าง: ผลสำรวจความพึงพอใจลูกค้า",
-   "url": "",
+   "url": "http://ne1app.pea.co.th/%E0%B8%81%E0%B8%9A%E0%B8%9F/%E0%B8%87%E0%B8%9A%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99/#home",
    "type": "Website",
    "icon": "Globe",
-   "order": 11,
+   "order": 13,
    "enabled": true,
-   "isSample": true
   },
   {
    "id": "s3",
@@ -162,7 +188,7 @@
    "url": "",
    "type": "Application",
    "icon": "Gauge",
-   "order": 12,
+   "order": 14,
    "enabled": true,
    "isSample": true
   }
