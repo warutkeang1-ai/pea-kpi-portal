@@ -25,7 +25,7 @@
    "description": "ติดตามการลงข้อมูล WeSafe & SPA",
    "type": "Dashboard",
    "icon": "Users",
-   "url": "",
+   "url": "https://wesafe.pea.co.th/admin/login.aspx",
    "enabled": true,
    "isSample": false,
    "order": 1
