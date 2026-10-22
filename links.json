@@ -1,0 +1,143 @@
+{
+ "departments": [
+  {
+   "name": "ประจำกอง",
+   "icon": "FolderOpen"
+  },
+  {
+   "name": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
+   "icon": "HardHat"
+  },
+  {
+   "name": "แผนกบริการลูกค้า",
+   "icon": "Users"
+  },
+  {
+   "name": "แผนกมิเตอร์",
+   "icon": "Gauge"
+  }
+ ],
+ "links": [
+  {
+   "id": "g1",
+   "department": "ประจำกอง",
+   "name": "Dashboard WeSafe & SPA",
+   "description": "ติดตามการลงข้อมูล WeSafe & SPA",
+   "type": "Dashboard",
+   "icon": "Users",
+   "url": "",
+   "enabled": true,
+   "isSample": false,
+   "order": 1
+  },
+  {
+   "id": "g2",
+   "department": "ประจำกอง",
+   "name": "Safety Commitment",
+   "description": "บอร์ดแสดง Safety Commitment การไฟฟ้าส่วนภูมิภาคสาขาชุมแพ",
+   "type": "Website",
+   "icon": "MessageCircle",
+   "url": "",
+   "enabled": true,
+   "isSample": false,
+   "order": 2
+  },
+  {
+   "id": "g3",
+   "department": "ประจำกอง",
+   "name": "SPA Dashboard",
+   "description": "SPA แสดงข้อมูลแบบ Real Time",
+   "type": "Dashboard",
+   "icon": "Users",
+   "url": "",
+   "enabled": true,
+   "isSample": false,
+   "order": 3
+  },
+  {
+   "id": "c1",
+   "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
+   "name": "ความต้องการพัสดุ กฟส.ผผ.",
+   "description": "ตรวจเช็คความต้องการพัสดุและพัสดุขาดแคลน",
+   "url": "",
+   "type": "Dashboard",
+   "icon": "Package",
+   "order": 4,
+   "enabled": true,
+   "isSample": false
+  },
+  {
+   "id": "c2",
+   "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
+   "name": "โปรแกรมติดตามงานก่อสร้าง NEW",
+   "description": "WBS Tracking NEW",
+   "url": "",
+   "type": "Application",
+   "icon": "ClipboardList",
+   "order": 5,
+   "enabled": true,
+   "isSample": false
+  },
+  {
+   "id": "c3",
+   "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
+   "name": "ระบบเช็คกระบวนงานก่อสร้างผ่าน CPM",
+   "description": "ระบบเช็คกระบวนงานก่อสร้างผ่าน CPM",
+   "url": "",
+   "type": "Application",
+   "icon": "AppWindow",
+   "order": 6,
+   "enabled": true,
+   "isSample": false
+  },
+  {
+   "id": "c4",
+   "department": "แผนกก่อสร้างระบบไฟฟ้า (ผกส.)",
+   "name": "ระบบติดตามความคืบหน้างานก่อสร้าง",
+   "description": "ติดตามงานตามระยะเวลาให้ได้ตามกำหนด",
+   "url": "",
+   "type": "Dashboard",
+   "icon": "BarChart3",
+   "order": 7,
+   "enabled": true,
+   "isSample": false
+  },
+  {
+   "id": "s1",
+   "department": "แผนกบริการลูกค้า",
+   "name": "ติดตามคำร้องผู้ใช้ไฟ",
+   "description": "ตัวอย่าง: สถานะคำร้องและระยะเวลาดำเนินการ",
+   "url": "",
+   "type": "Dashboard",
+   "icon": "LayoutDashboard",
+   "order": 8,
+   "enabled": true,
+   "isSample": true
+  },
+  {
+   "id": "s2",
+   "department": "แผนกบริการลูกค้า",
+   "name": "แบบสำรวจความพึงพอใจ",
+   "description": "ตัวอย่าง: ผลสำรวจความพึงพอใจลูกค้า",
+   "url": "",
+   "type": "Website",
+   "icon": "Globe",
+   "order": 9,
+   "enabled": true,
+   "isSample": true
+  },
+  {
+   "id": "s3",
+   "department": "แผนกมิเตอร์",
+   "name": "ติดตามการเปลี่ยนมิเตอร์",
+   "description": "ตัวอย่าง: ความคืบหน้างานเปลี่ยนมิเตอร์",
+   "url": "",
+   "type": "Application",
+   "icon": "Gauge",
+   "order": 10,
+   "enabled": true,
+   "isSample": true
+  }
+ ],
+ "banners": []
+}
