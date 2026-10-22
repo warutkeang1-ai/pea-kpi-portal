@@ -1,9 +1,5 @@
 {
  "departments": [
-    {
-   "name": "งานตามข้อสั่งการ ผวก. ผชก.(ฉ.1)",
-   "icon": "LayoutDashboard"
-  },
   {
    "name": "ประจำกอง",
    "icon": "FolderOpen"
