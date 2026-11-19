@@ -217,7 +217,7 @@
    "id": "w2",
    "department": "แผนกคลังพัสดุ",
    "name": "Inventorynext",
-   "description": "ภาพรวมสุขภาพพัสดุคงคลัง",
+   "description": "การลดมูลค่าพัสดุคงคลังภาพรวมของ กฟภ. ตามแนวทางการบริหารพัสดุคงคลังแบบบูรณาการผ่านโปรแกรม Inventory NEXT",
    "url": "https://inventorynext-tcc.pea.co.th/",
    "type": "Website",
    "icon": "Boxes",
