@@ -23,6 +23,10 @@
   {
    "name": "แผนกมิเตอร์",
    "icon": "Gauge"
+  },
+    {
+   "name": "แผนกคลังพัสดุ",
+   "icon": "Warehouse"
   }
  ],
  "links": [
@@ -56,7 +60,7 @@
    "name": "Dashboard WeSafe & SPA",
    "description": "ติดตามการลงข้อมูล WeSafe & SPA",
    "type": "Dashboard",
-   "icon": "Users",
+   "icon": "Gauge",
    "url": "https://wesafe.pea.co.th/admin/login.aspx",
    "enabled": true,
    "isSample": false,
@@ -80,31 +84,31 @@
    "name": "SPA Dashboard",
    "description": "SPA แสดงข้อมูลแบบ Real Time",
    "type": "Dashboard",
-   "icon": "Users",
+   "icon": "Gauge",
    "url": "https://datastudio.google.com/u/0/reporting/d5f1333f-c6ab-45ee-8ada-953ab930eaa9/page/p_st009btu4c",
    "enabled": true,
    "isSample": false,
    "order": 5
   },
     {
-   "id": "g3",
+   "id": "g4",
    "department": "ประจำกอง",
    "name": "GIS Dashboard",
    "description": "อัพเดตผลงานโดยเขต ทุกวันแรกของสัปดาห์",
    "type": "Dashboard",
-   "icon": "Users",
+   "icon": "BarChart3",
    "url": "https://datastudio.google.com/u/0/reporting/888a16d4-b493-4a5e-aefb-0a68382fda60/page/p_54987s2ugd",
    "enabled": true,
    "isSample": false,
    "order": 6
   },
       {
-   "id": "g3",
+   "id": "g5",
    "department": "ประจำกอง",
    "name": "Loss กฟฉ.1",
    "description": "Google drive รวบรวมรายงานหน่วยสูญเสียฯ",
    "type": "Dashboard",
-   "icon": "Globe",
+   "icon": "BarChart3",
    "url": "https://drive.google.com/drive/folders/102VkGyqy7MYlcCthR-2Yqqu2xRwahq0x",
    "enabled": true,
    "isSample": false,
@@ -120,7 +124,6 @@
    "icon": "Package",
    "order": 8,
    "enabled": true,
-   "isSample": false
   },
   {
    "id": "c2",
@@ -129,10 +132,9 @@
    "description": "อัพเดตโดย ผกส.กฟส.ชมพ. สัปดาห์ละ 1 ครั้ง",
    "url": "https://datastudio.google.com/s/npGu2coDPhI",
    "type": "Dashboard",
-   "icon": "LayoutDashboard",
+   "icon": "Construction",
    "order": 9,
    "enabled": true,
-   "isSample": false
   },
   {
    "id": "c3",
@@ -141,10 +143,9 @@
    "description": "อัพเดตโดย ผกส.กฟส.ชมพ. สัปดาห์ละ 1 ครั้ง",
    "url": "https://datastudio.google.com/u/0/reporting/caa42ddf-b62d-4c34-a787-8302d7a82fdc/page/p_vtgqdg717d",
    "type": "Dashboard",
-   "icon": "LayoutDashboard",
+   "icon": "Hammer",
    "order": 10,
    "enabled": true,
-   "isSample": false
   },
   {
    "id": "c4",
@@ -156,7 +157,6 @@
    "icon": "BarChart3",
    "order": 11,
    "enabled": true,
-   "isSample": false
   },
   {
    "id": "s1",
@@ -165,33 +165,65 @@
    "description": "ร้อยละการใช้งาน 80%",
    "url": "https://csm.pea.co.th/wom/activeusage",
    "type": "Dashboard",
-   "icon": "LayoutDashboard",
+   "icon": "MapPinned",
    "order": 12,
+   "enabled": true
+  },
+    {
+   "id": "s2",
+   "department": "แผนกบริการลูกค้า",
+   "name": "ติดตามการติดตั้งมิเตอร์ในเขต นอกเขตเทศบาล",
+   "description": "ข้อมูลรายงานประจำเดือน",
+   "url": "http://om.pea.co.th/om64/web_area/index.php?yeartoday=2026&p=D&s=P3",
+   "type": "Websited",
+   "icon": "PanelsTopLeft",
+   "order": 13,
    "enabled": true
   },
     {
    "id": "i1",
    "department": "แผนกสนับสนุน",
    "name": "งบลงทุนทุกงบทุกโครงการ",
-   "description": "ตัวอย่าง: ผลสำรวจความพึงพอใจลูกค้า",
+   "description": "งบจัดซื้อพัสดุ งบสำรองกรณีจำเป็นเร่งด่วน งบลงทุนทุกโครงการ",
    "url": "http://ne1app.pea.co.th/%E0%B8%81%E0%B8%9A%E0%B8%9F/%E0%B8%87%E0%B8%9A%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99/#home",
    "type": "Website",
-   "icon": "Globe",
-   "order": 13,
+   "icon": "Wallet",
+   "order": 14,
    "enabled": true
   },
   {
-   "id": "s3",
+   "id": "m1",
    "department": "แผนกมิเตอร์",
-   "name": "ติดตามการเปลี่ยนมิเตอร์",
+   "name": "รายงานความผิดปกติมิเตอร์ U-Cube",
    "description": "ลิ้งค์กลางของ กฟฉ.1",
-   "url": "",
-   "type": "Application",
+   "url": "http://ucube.pea.co.th/ucube/main.php",
+   "type": "Website",
    "icon": "Gauge",
-   "order": 14,
+   "order": 15,
    "enabled": true,
-   "isSample": true
-  }
+  },
+    {
+   "id": "w1",
+   "department": "แผนกคลังพัสดุ",
+   "name": "EASYSTOCK PRO (ESP)",
+   "description": "ใช้ตรวจสอบพัสดุคงคลัง เทียบกับความต้องการพัสดุ",
+   "url": "https://powerbi-report.pea.co.th/reports/powerbi/NE1/%E0%B8%81%E0%B8%94%E0%B8%AA./ESP",
+   "type": "Website",
+   "icon": "Boxes",
+   "order": 16,
+   "enabled": true,
+  },
+     {
+   "id": "w2",
+   "department": "แผนกคลังพัสดุ",
+   "name": "Inventorynext",
+   "description": "ภาพรวมสุขภาพพัสดุคงคลัง",
+   "url": "https://inventorynext-tcc.pea.co.th/",
+   "type": "Website",
+   "icon": "Boxes",
+   "order": 17,
+   "enabled": true,
+  },
  ],
  "banners": []
 }
