@@ -1,4 +1,9 @@
 {
+  "overview": {
+  "title": "ภาพรวม KPIs",
+  "description": "ดูภาพรวมตัวชี้วัดผลการดำเนินงาน",
+  "url": "https://peaex.pea.co.th/reports/powerbi/PRD/%E0%B8%81%E0%B8%9F%E0%B8%89.1%20%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A3%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5/%E0%B8%81%E0%B8%9A%E0%B8%A5./Dashboard-KPIs-BI"
+ },
  "departments": [
     {
    "name": "งานตามข้อสั่งการ ผวก. ผชก.(ฉ.1)",
@@ -124,7 +129,7 @@
    "icon": "Package",
    "order": 8,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
   {
    "id": "c2",
@@ -136,7 +141,7 @@
    "icon": "Construction",
    "order": 9,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
   {
    "id": "c3",
@@ -148,7 +153,7 @@
    "icon": "Hammer",
    "order": 10,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
   {
    "id": "c4",
@@ -160,7 +165,7 @@
    "icon": "BarChart3",
    "order": 11,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
   {
    "id": "s1",
@@ -172,7 +177,7 @@
    "icon": "MapPinned",
    "order": 12,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
     {
    "id": "s2",
@@ -180,11 +185,11 @@
    "name": "ติดตามการติดตั้งมิเตอร์ในเขต นอกเขตเทศบาล",
    "description": "ข้อมูลรายงานประจำเดือน",
    "url": "http://om.pea.co.th/om64/web_area/index.php?yeartoday=2026&p=D&s=P3",
-   "type": "Websited",
+   "type": "Website",
    "icon": "PanelsTopLeft",
    "order": 13,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
     {
    "id": "i1",
@@ -196,7 +201,7 @@
    "icon": "Wallet",
    "order": 14,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
   {
    "id": "m1",
@@ -208,7 +213,7 @@
    "icon": "Gauge",
    "order": 15,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
     {
    "id": "w1",
@@ -220,7 +225,7 @@
    "icon": "Boxes",
    "order": 16,
    "enabled": true,
-   "isSample": false,
+   "isSample": false
   },
      {
    "id": "w2",
@@ -232,8 +237,8 @@
    "icon": "Boxes",
    "order": 17,
    "enabled": true,
-   "isSample": false,
-  },
+   "isSample": false
+  }
  ],
  "banners": []
 }
