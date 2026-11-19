@@ -124,6 +124,7 @@
    "icon": "Package",
    "order": 8,
    "enabled": true,
+   "isSample": false,
   },
   {
    "id": "c2",
@@ -135,6 +136,7 @@
    "icon": "Construction",
    "order": 9,
    "enabled": true,
+   "isSample": false,
   },
   {
    "id": "c3",
@@ -146,6 +148,7 @@
    "icon": "Hammer",
    "order": 10,
    "enabled": true,
+   "isSample": false,
   },
   {
    "id": "c4",
@@ -157,6 +160,7 @@
    "icon": "BarChart3",
    "order": 11,
    "enabled": true,
+   "isSample": false,
   },
   {
    "id": "s1",
@@ -167,7 +171,8 @@
    "type": "Dashboard",
    "icon": "MapPinned",
    "order": 12,
-   "enabled": true
+   "enabled": true,
+   "isSample": false,
   },
     {
    "id": "s2",
@@ -178,7 +183,8 @@
    "type": "Websited",
    "icon": "PanelsTopLeft",
    "order": 13,
-   "enabled": true
+   "enabled": true,
+   "isSample": false,
   },
     {
    "id": "i1",
@@ -189,7 +195,8 @@
    "type": "Website",
    "icon": "Wallet",
    "order": 14,
-   "enabled": true
+   "enabled": true,
+   "isSample": false,
   },
   {
    "id": "m1",
@@ -201,6 +208,7 @@
    "icon": "Gauge",
    "order": 15,
    "enabled": true,
+   "isSample": false,
   },
     {
    "id": "w1",
@@ -212,6 +220,7 @@
    "icon": "Boxes",
    "order": 16,
    "enabled": true,
+   "isSample": false,
   },
      {
    "id": "w2",
@@ -223,6 +232,7 @@
    "icon": "Boxes",
    "order": 17,
    "enabled": true,
+   "isSample": false,
   },
  ],
  "banners": []
