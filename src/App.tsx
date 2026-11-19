@@ -2,12 +2,14 @@ import { useEffect, useMemo, useState } from 'react'
 import * as L from 'lucide-react'
 import { LINK_TYPES, type KpiLink, type PortalData } from './types'
 import { loadData, saveData, resetData, isSafeUrl } from './storage'
+import seed from './data/links.json'
 
 const ICONS: Record<string, L.LucideIcon> = {
   LayoutDashboard: L.LayoutDashboard, AppWindow: L.AppWindow, Globe: L.Globe, Package: L.Package,
   ClipboardList: L.ClipboardList, BarChart3: L.BarChart3, Users: L.Users, Gauge: L.Gauge,
   HardHat: L.HardHat, Building2: L.Building2, Zap: L.Zap, Link2: L.Link2,
-  MessageCircle: L.MessageCircle, FolderOpen: L.FolderOpen,
+  MessageCircle: L.MessageCircle, FolderOpen: L.FolderOpen,  Warehouse: L.Warehouse, Construction: L.Construction, Hammer: L.Hammer,
+  MapPinned: L.MapPinned, PanelsTopLeft: L.PanelsTopLeft, Wallet: L.Wallet, Boxes: L.Boxes,
 }
 const Icon = ({ name, size = 22 }: { name: string; size?: number }) => {
   const C = ICONS[name] ?? L.Link2
@@ -40,6 +42,8 @@ export default function App() {
   const deptNames = useMemo(() => [...new Set([...data.departments.map(d => d.name), ...data.links.map(l => l.department)])], [data])
   const deptIcon = (n: string) => data.departments.find(d => d.name === n)?.icon ?? 'FolderOpen'
   const showAdminView = adminOn && reorder
+  const ov = seed.overview
+  const ovOk = isSafeUrl(ov.url)
 
   const shown = useMemo(() => {
     const s = q.trim().toLowerCase()
@@ -105,6 +109,14 @@ export default function App() {
     </div></header>
 
     <main className="wrap">
+            {ovOk
+        ? <a className="kpibar" href={ov.url} target="_blank" rel="noopener noreferrer">
+            <span className="kico"><L.Target size={26} aria-hidden /></span>
+            <span className="ktxt"><b>{ov.title}</b><small>{ov.description}</small></span>
+            <span className="kgo">เปิดเว็บไซต์ <L.ExternalLink size={16} aria-hidden /></span></a>
+        : <div className="kpibar off">
+            <span className="kico"><L.Target size={26} aria-hidden /></span>
+            <span className="ktxt"><b>{ov.title}</b><small>ยังไม่ได้กำหนดลิงก์</small></span></div>}
       {nb > 0 && <div className="banner" aria-label="แบนเนอร์">
         <img src={data.banners[slide % nb]} alt={`แบนเนอร์ ${slide % nb + 1}`} />
         {nb > 1 && <div className="dots">{data.banners.map((_, i) => <button key={i} aria-label={`แบนเนอร์ ${i + 1}`} className={i === slide % nb ? 'cur' : ''} onClick={() => setSlide(i)} />)}</div>}</div>}
